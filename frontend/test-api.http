@@ -1,0 +1,8 @@
+### Health Check
+GET http://localhost:8080/api/dashboard/health
+
+### Get Builds
+GET http://localhost:8080/api/dashboard/builds/Search_TestSuite
+
+### Get Latest Build
+GET http://localhost:8080/api/dashboard/latest-build/Search_TestSuite`

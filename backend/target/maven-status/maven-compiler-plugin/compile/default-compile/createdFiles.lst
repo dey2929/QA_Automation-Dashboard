@@ -1,0 +1,13 @@
+com\qa\dashboard\service\JenkinsReportParser.class
+com\qa\dashboard\controller\AdminController.class
+com\qa\dashboard\service\JenkinsReportFetcher.class
+com\qa\dashboard\DashboardApplication.class
+com\qa\dashboard\entity\Build.class
+com\qa\dashboard\service\JenkinsReportParser$TestStats.class
+com\qa\dashboard\repository\BuildRepository.class
+com\qa\dashboard\service\DashboardService.class
+com\qa\dashboard\entity\TestStatus.class
+com\qa\dashboard\service\DataLoader.class
+com\qa\dashboard\controller\DashboardController.class
+com\qa\dashboard\entity\TestResult.class
+com\qa\dashboard\repository\TestResultRepository.class
