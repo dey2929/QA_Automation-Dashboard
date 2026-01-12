@@ -8,6 +8,157 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
     color: #333;
+    position: relative;
+}
+
+/* Notification Styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: all 0.3s ease;
+    max-width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notification--show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.notification--success {
+    background-color: #28a745;
+    color: white;
+}
+
+.notification--error {
+    background-color: #dc3545;
+    color: white;
+}
+
+.notification--info {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #e9ecef;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    width: 0%;
+    transition: width 0.3s ease;
+    position: relative;
+}
+
+.progress-bar-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.2) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0.2) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-size: 1rem 1rem;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    0% {
+        background-position: 1rem 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.progress-bar-text {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10000;
+    white-space: nowrap;
+}
+
+/* Shimmer Loading Styles */
+.shimmer-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.shimmer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: inherit;
+}
+
+.shimmer-overlay.active {
+    opacity: 1;
+}
+
+.shimmer-container.loading .shimmer-overlay {
+    opacity: 1;
+}
+
+.shimmer-container.loading {
+    pointer-events: none;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
 }
 
 .dashboard-container {
@@ -17,7 +168,7 @@ body {
 .dashboard-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 20px;
+    padding: 24px 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
@@ -27,29 +178,101 @@ body {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 30px;
+}
+
+.logo-section {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo-section h1 {
     font-size: 28px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
+    line-height: 1.2;
 }
 
 .subtitle {
     opacity: 0.9;
     font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
 }
 
 .controls-section {
     display: flex;
-    gap: 15px;
-    align-items: center;
+    gap: 12px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+
+/* Flatpickr Date Picker Styles */
+.flatpickr-input {
+    cursor: pointer;
+}
+
+.flatpickr-calendar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.flatpickr-day:hover {
+    background: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.95;
+    white-space: nowrap;
 }
 
 .form-control {
     padding: 8px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+    min-width: 140px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
 
 .btn {
@@ -59,6 +282,13 @@ body {
     cursor: pointer;
     font-size: 14px;
     transition: all 0.3s ease;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .btn--primary {
@@ -68,6 +298,12 @@ body {
 
 .btn--primary:hover {
     background-color: #0056b3;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .dashboard-main {
@@ -165,6 +401,60 @@ body {
     max-height: 350px;
 }
 
+.chart-legend-small {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #666;
+    flex-shrink: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.chart-legend-small strong {
+    color: #333;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.chart-legend-small ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.chart-legend-small li {
+    margin-bottom: 6px;
+}
+
+.chart-legend-small li strong {
+    display: inline;
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Custom scrollbar for legend */
+.chart-legend-small::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chart-legend-small::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.chart-legend-small::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.chart-legend-small::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .test-list {
     flex: 1;
     overflow-y: auto;
@@ -198,17 +488,34 @@ body {
     margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 15px;
 }
 
 .test-name {
     font-weight: 500;
     color: #333;
+    flex: 1;
+    min-width: 0;
+    line-height: 1.4;
+    word-wrap: break-word;
 }
 
 .test-metric {
     font-weight: bold;
     color: #666;
+    text-align: right;
+    min-width: 180px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.test-metric > div {
+    white-space: nowrap;
 }
 
 .failure-rate-high { border-left: 3px solid #dc3545; }
@@ -274,6 +581,24 @@ body {
 .duration-sublabel {
     font-size: 10px;
     color: #888;
+}
+
+.duration-help {
+    font-size: 10px;
+    color: #999;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.help-icon {
+    font-size: 12px;
+    color: #666;
+    cursor: help;
+    margin-left: 5px;
+}
+
+.help-icon:hover {
+    color: #333;
 }
 
 .recent-builds h4 {
@@ -350,7 +675,27 @@ body {
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
+        align-items: stretch;
+    }
+    
+    .logo-section {
+        text-align: center;
+    }
+    
+    .controls-section {
+        justify-content: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .form-group {
+        flex: 1 1 calc(50% - 6px);
+        min-width: 140px;
+    }
+    
+    .btn {
+        flex: 1 1 calc(50% - 6px);
+        min-width: 140px;
     }
     
     .metrics-grid {

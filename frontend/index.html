@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>99acres QA Automation Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 <body>
     <div class="dashboard-container">
@@ -22,8 +24,22 @@
                         <select id="suiteSelect" class="form-control">
                             <option value="Search_TestSuite">Search Suite</option>
                             <option value="HomePage_99acres">HomePage Suite</option>
+                            <option value="EOI_Msite_Regression_RevampXID">EOI Msite Regression RevampXID</option>
+                            <option value="BOS_suite">BOS Suite</option>
+                            <option value="InvestAcres_TestSuite">Investacres Suite</option>
                         </select>
                     </div>
+                    <div class="form-group">
+                        <label for="fromDate" class="form-label">From Date</label>
+                        <input type="text" id="fromDate" class="form-control" placeholder="DD/MM/YYYY" maxlength="10">
+                    </div>
+                    <div class="form-group">
+                        <label for="toDate" class="form-label">To Date</label>
+                        <input type="text" id="toDate" class="form-control" placeholder="DD/MM/YYYY" maxlength="10">
+                    </div>
+                    <button class="btn btn--primary" id="syncBtn">
+                        <span class="sync-icon">🔄</span> Sync with Jenkins
+                    </button>
                     <button class="btn btn--primary" id="refreshBtn">
                         <span class="refresh-icon">↻</span> Refresh
                     </button>
@@ -31,12 +47,19 @@
             </div>
         </header>
 
+        <!-- Progress Bar -->
+        <div id="progressBar" class="progress-bar" style="display: none;">
+            <div class="progress-bar-fill"></div>
+            <div class="progress-bar-text">Loading data...</div>
+        </div>
+
         <!-- Main Dashboard -->
         <main class="dashboard-main">
             <!-- Metrics Cards -->
             <section class="metrics-section">
                 <div class="metrics-grid">
-                    <div class="metric-card metric-card--success">
+                    <div class="metric-card metric-card--success shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <div class="metric-header">
                             <h3>Latest Build</h3>
                             <span class="metric-icon">✓</span>
@@ -45,7 +68,8 @@
                         <div class="metric-label">Build #<span id="latestBuildId">562</span></div>
                     </div>  
 
-                    <div class="metric-card">
+                    <div class="metric-card shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <div class="metric-header">
                             <h3>Pass Rate</h3>
                             <span class="metric-icon">📊</span>
@@ -54,16 +78,18 @@
                         <div class="metric-label">Overall Success</div>
                     </div>
 
-                    <div class="metric-card">
+                    <div class="metric-card shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <div class="metric-header">
                             <h3>Total Tests</h3>
                             <span class="metric-icon">🧪</span>
                         </div>
                         <div class="metric-value" id="totalTests">118</div>
-                        <div class="metric-label">Last Build</div>
+                        <div class="metric-label">Total in Range</div>
                     </div>
 
-                    <div class="metric-card">
+                    <div class="metric-card shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <div class="metric-header">
                             <h3>Avg Duration</h3>
                             <span class="metric-icon">⏱️</span>
@@ -78,31 +104,36 @@
             <section class="charts-section">
                 <div class="charts-grid">
                     <!-- Pass Rate Trend -->
-                    <div class="chart-container">
+                    <div class="chart-container shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <h3>Pass Rate Trend</h3>
                         <canvas id="passRateChart"></canvas>
                     </div>
 
                     <!-- Flaky Tests -->
-                    <div class="chart-container">
+                    <div class="chart-container shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <h3>Top Flaky Tests</h3>
                         <div id="flakyTestsList" class="test-list"></div>
                     </div>
 
                     <!-- Slow Tests -->
-                    <div class="chart-container">
+                    <div class="chart-container shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <h3>Slowest Tests</h3>
                         <div id="slowTestsList" class="test-list"></div>
                     </div>
 
-                    <!-- Feature Failures -->
-                    <div class="chart-container">
-                        <h3>Failures by Feature</h3>
+                    <!-- Failures by Module -->
+                    <div class="chart-container shimmer-container">
+                        <div class="shimmer-overlay"></div>
+                        <h3>Failures by Module</h3>
                         <canvas id="featureChart"></canvas>
                     </div>
 
                     <!-- Build Duration -->
-                    <div class="chart-container">
+                    <div class="chart-container shimmer-container">
+                        <div class="shimmer-overlay"></div>
                         <h3>Build Duration Analysis</h3>
                         <div id="buildDurationStats" class="duration-stats"></div>
                     </div>

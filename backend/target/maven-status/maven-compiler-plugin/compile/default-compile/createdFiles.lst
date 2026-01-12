@@ -6,6 +6,7 @@ com\qa\dashboard\entity\Build.class
 com\qa\dashboard\service\JenkinsReportParser$TestStats.class
 com\qa\dashboard\repository\BuildRepository.class
 com\qa\dashboard\service\DashboardService.class
+com\qa\dashboard\service\DataReloadService.class
 com\qa\dashboard\entity\TestStatus.class
 com\qa\dashboard\service\DataLoader.class
 com\qa\dashboard\controller\DashboardController.class

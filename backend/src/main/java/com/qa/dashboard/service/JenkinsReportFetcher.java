@@ -31,6 +31,9 @@ public class JenkinsReportFetcher implements CommandLineRunner {
     private static final Map<String, String> TEST_SUITES = new HashMap<String, String>() {{
         put("Search_TestSuite", "/job/Search_TestSuite/ws/resources/reports/");
         put("HomePage_99acres", "/job/HomePage_99acres/ws/resources/reports/");
+        put("EOI_Msite_Regression_RevampXID", "/job/EOI_Msite_Regression_RevampXID/ws/resources/reports/");
+        put("BOS_suite", "/job/BOS_suite/ws/resources/reports/");
+        put("InvestAcres_TestSuite", "/job/InvestAcres_TestSuite/ws/resources/reports/");
     }};
     
     @Override

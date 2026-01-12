@@ -1,0 +1,2146 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mobile EOI</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 17, 2025 10:59:53 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name"><font size = 3 >MOBILE_SITE: FULL SUITE - XID Revamp IA</font></p>
+            <p class="text-sm">
+              <span>10:59:53 pm</span> / <span>00:13:09:650</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail"><font size = 3 >MOBILE_SITE: FULL SUITE - XID Revamp IA</font></h5>
+<span class='badge badge-success'>12.17.2025 10:59:53 pm</span>
+<span class='badge badge-danger'>12.17.2025 11:13:03 pm</span>
+<span class='badge badge-default'>00:13:09:650</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>ValidateResidentialBuySRP</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:41:740</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>1 Test Case:  Validate XID Revamp Page Using StickyBottomViewNumber CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:03 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:05 pm</td>
+        <td>
+          StickyBottomViewNumber CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:05 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:30 pm</td>
+        <td>
+          clicked successfully on: sticky bottom view number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:32 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:34 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_BOTTOM_STICKY.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926152813223931765992587459","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:35 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:36 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:36 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_BOTTOM_STICKY.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926152813223931765992587459","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:36 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:37 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwYzk5NmFiOS1hMGRlLTQwZTQtYWUwNi01N2E0ODE4ZTE3ZGEiLCJzdWIiOiI5NDc3MDYyNSIsImlhdCI6MTc2NTk5MjYyMSwiZXhwIjoxODI5MDY0NjIxLCJzZWNyZXRJZCI6IjMyMjM5MzE3NjU5OTI1ODc0NTkifQ.6piGGAfIEpsd5a_nkT5ZkF3s9Zy1Bu3ntCwLFOg9oD8_ScFJXUWq5ivbBB5zXpzQppo330wWZ4YLOYCBNP0cCg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770625","videoTourFlow":false,"responseId":"6942e8ad97b55d5ea2c28fdb","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:41 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:44 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926279383223931765992587459"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:45 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwYzk5NmFiOS1hMGRlLTQwZTQtYWUwNi01N2E0ODE4ZTE3ZGEiLCJzdWIiOiI5NDc3MDYyNSIsImlhdCI6MTc2NTk5MjYyMSwiZXhwIjoxODI5MDY0NjIxLCJzZWNyZXRJZCI6IjMyMjM5MzE3NjU5OTI1ODc0NTkifQ.6piGGAfIEpsd5a_nkT5ZkF3s9Zy1Bu3ntCwLFOg9oD8_ScFJXUWq5ivbBB5zXpzQppo330wWZ4YLOYCBNP0cCg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770625","videoTourFlow":false,"responseId":"6942e8b597b55d5ea2c28fe2","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:45 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:45 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:45:174</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>2 Test Case:  Validate XID Revamp Page Using StickyBottomBrochure CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:55 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:56 pm</td>
+        <td>
+          StickyBottomBrochure CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:00:57 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:20 pm</td>
+        <td>
+          clicked successfully on: sticky bottom brochure
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:22 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:24 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_BOTTOM_STICKY.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926649297003871765992638501","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:25 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:25 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:26 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_BOTTOM_STICKY.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926649297003871765992638501","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:26 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:27 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjZDJlYjVjOS1hMGE3LTRiYTktOWRjYS00ZmQ2N2Y2MTY4MTQiLCJzdWIiOiI5NDc3MDY1MyIsImlhdCI6MTc2NTk5MjY3MCwiZXhwIjoxODI5MDY0NjcwLCJzZWNyZXRJZCI6IjcwMDM4NzE3NjU5OTI2Mzg1MDEifQ.SAxqw5VEONf0c0-k9YlGq0H2MzXeqj1pBhe8OGIbdhoZ0hvQg1o3HWxTZDQ4gzPj3Gid8SfLc-ZU_q3TfEYX4g","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770653","videoTourFlow":false,"responseId":"6942e8de2f695c35381ae181","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:31 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:39 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659926825167003871765992638501"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:01:40 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjZDJlYjVjOS1hMGE3LTRiYTktOWRjYS00ZmQ2N2Y2MTY4MTQiLCJzdWIiOiI5NDc3MDY1MyIsImlhdCI6MTc2NTk5MjY3MCwiZXhwIjoxODI5MDY0NjcwLCJzZWNyZXRJZCI6IjcwMDM4NzE3NjU5OTI2Mzg1MDEifQ.SAxqw5VEONf0c0-k9YlGq0H2MzXeqj1pBhe8OGIbdhoZ0hvQg1o3HWxTZDQ4gzPj3Gid8SfLc-ZU_q3TfEYX4g","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770653","videoTourFlow":false,"responseId":"6942e8b597b55d5ea2c28fe2","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"captcha":false,"dailyCap":false,"weeklyCap":false,"falseRequest":false,"phoneRejected":false,"hardBlock":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:40 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:01:40 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:45:244</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>3 Test Case:  Validate XID Revamp Page Using BrochureGallery CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:18 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:20 pm</td>
+        <td>
+          BrochureGallery CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:20 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:44 pm</td>
+        <td>
+          clicked successfully on: Gallery list view brochure
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:45 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:47 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"Nnacreskiosknnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659927484127393931765992722026","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:48 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"Nnacreskiosknnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"Nnacreskiosknnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:49 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:49 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"Nnacreskiosknnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659927484127393931765992722026","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:49 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:50 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhMTg3MzdhMS0yZDE3LTQ1ZWUtOWFjZi0wZWZmOGIyZjJkZWMiLCJzdWIiOiI5NDc3MDY5OSIsImlhdCI6MTc2NTk5Mjc1NCwiZXhwIjoxODI5MDY0NzU0LCJzZWNyZXRJZCI6IjczOTM5MzE3NjU5OTI3MjIwMjYifQ.kZqyKenlX9QMu63keApToKxKpsdViJbGgjFvSMxvRjMjNZdVbJ7JNx0Fu1-VfIqQVoNqSIgnSzEvClyJ5qNt4A","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"Nnacreskiosknnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770699","videoTourFlow":false,"responseId":"6942e9322f695c35381ae215","qryUsrData":"Nnacreskiosknnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nNnacreskiosknnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:54 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:02 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"Nnacreskiosknnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659927658877393931765992722026"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:03 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhMTg3MzdhMS0yZDE3LTQ1ZWUtOWFjZi0wZWZmOGIyZjJkZWMiLCJzdWIiOiI5NDc3MDY5OSIsImlhdCI6MTc2NTk5Mjc1NCwiZXhwIjoxODI5MDY0NzU0LCJzZWNyZXRJZCI6IjczOTM5MzE3NjU5OTI3MjIwMjYifQ.kZqyKenlX9QMu63keApToKxKpsdViJbGgjFvSMxvRjMjNZdVbJ7JNx0Fu1-VfIqQVoNqSIgnSzEvClyJ5qNt4A","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"Nnacreskiosknnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770699","videoTourFlow":false,"responseId":"6942e93f2f695c35381ae22d","qryUsrData":"Nnacreskiosknnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nNnacreskiosknnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:03 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:03 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:41:672</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>4 Test Case:  Validate XID Revamp Page Using BrochureGalleryDetails CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:14 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:15 pm</td>
+        <td>
+          BrochureGalleryDetails CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:15 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:40 pm</td>
+        <td>
+          clicked successfully on: Gallery single view brochure
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:42 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:44 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928053762083901765992777450","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:45 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:46 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:46 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928053762083901765992777450","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:46 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:49 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmNDUwNTAwNi1jMDRiLTQ4ZTAtOGY5Zi1mYzNkZTQ0MDNhYzYiLCJzdWIiOiI5NDc3MDcyMyIsImlhdCI6MTc2NTk5MjgxMSwiZXhwIjoxODI5MDY0ODExLCJzZWNyZXRJZCI6IjIwODM5MDE3NjU5OTI3Nzc0NTAifQ.o8bWpzCyxw-Vara73asWCePMaY11azQN-KlB1athEeL-XbvxcHdMGimRJ0_NKFD0eTTYAniaKB0pJ1AajRKKQg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770723","videoTourFlow":false,"responseId":"6942e96b2f695c35381ae255","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:51 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:54 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928180342083901765992777450"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:55 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmNDUwNTAwNi1jMDRiLTQ4ZTAtOGY5Zi1mYzNkZTQ0MDNhYzYiLCJzdWIiOiI5NDc3MDcyMyIsImlhdCI6MTc2NTk5MjgxMSwiZXhwIjoxODI5MDY0ODExLCJzZWNyZXRJZCI6IjIwODM5MDE3NjU5OTI3Nzc0NTAifQ.o8bWpzCyxw-Vara73asWCePMaY11azQN-KlB1athEeL-XbvxcHdMGimRJ0_NKFD0eTTYAniaKB0pJ1AajRKKQg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770723","videoTourFlow":false,"responseId":"6942e93f2f695c35381ae22d","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:55 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:03:55 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:46:184</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>5 Test Case:  Validate XID Revamp Page Using RqstPhotosGallery CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:05 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:06 pm</td>
+        <td>
+          RqstPhotosGallery CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:07 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:32 pm</td>
+        <td>
+          clicked successfully on: Gallery list view request photos
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:33 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:35 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.REQUEST_PHOTO","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928564794873871765992828782","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:36 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:37 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:37 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.REQUEST_PHOTO","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in checking out more photos of this property. Please share them on my phone/email.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928564794873871765992828782","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:37 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:38 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJkOTVkZWMxOC05YzE3LTQxNGEtODU3Mi1jMTkyZGJkMDRhNTQiLCJzdWIiOiI5NDc3MDc2MyIsImlhdCI6MTc2NTk5Mjg2MSwiZXhwIjoxODI5MDY0ODYxLCJzZWNyZXRJZCI6IjQ4NzM4NzE3NjU5OTI4Mjg3ODIifQ.O0pKr943Z5j-2vCyOiine15DDI50cYQBV8IIr3J0UIUXdt83Q9RPYjqkmq7GOGl5zS_lTsj5QU_3XfjmrTg1eQ","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770763","videoTourFlow":false,"responseId":"6942e99e1514d37f9c0d3b76","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:42 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:50 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659928736974873871765992828782"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:51 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJkOTVkZWMxOC05YzE3LTQxNGEtODU3Mi1jMTkyZGJkMDRhNTQiLCJzdWIiOiI5NDc3MDc2MyIsImlhdCI6MTc2NTk5Mjg2MSwiZXhwIjoxODI5MDY0ODYxLCJzZWNyZXRJZCI6IjQ4NzM4NzE3NjU5OTI4Mjg3ODIifQ.O0pKr943Z5j-2vCyOiine15DDI50cYQBV8IIr3J0UIUXdt83Q9RPYjqkmq7GOGl5zS_lTsj5QU_3XfjmrTg1eQ","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770763","videoTourFlow":false,"responseId":"6942e93f2f695c35381ae22d","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:51 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:04:51 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:53:234</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>6 Test Case:  Validate XID Revamp Page Using RqstPhotosGalleryDetails CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:00 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:03 pm</td>
+        <td>
+          RqstPhotosGalleryDetails CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:03 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:31 pm</td>
+        <td>
+          clicked successfully on: Gallery single view request photos
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:33 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:35 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_DETAILS.REQUEST_PHOTO","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929164261743931765992883822","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:36 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"captcha":false,"dailyCap":false,"weeklyCap":false,"falseRequest":false,"phoneRejected":false,"hardBlock":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:37 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:37 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_DETAILS.REQUEST_PHOTO","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in checking out more photos of this property. Please share them on my phone/email.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929164261743931765992883822","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:37 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:38 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxN2E2YjQxNi03ODhkLTQwNzMtYWZhYi0xN2Q5MzViMTg5NWYiLCJzdWIiOiI5NDc3MDgwMSIsImlhdCI6MTc2NTk5MjkyMiwiZXhwIjoxODI5MDY0OTIyLCJzZWNyZXRJZCI6IjE3NDM5MzE3NjU5OTI4ODM4MjIifQ.80ZCDQvSLaoYt75KAiPSCJji94lQgFgh3e-RsgVT6AvB_Rgk8HpxvOnUcOJVwG7fUUvxZLqxnx1Fk-xRYSvS_A","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770801","videoTourFlow":false,"responseId":"6942e9da1514d37f9c0d3bc1","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:42 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:53 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929288561743931765992883822"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:53 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxN2E2YjQxNi03ODhkLTQwNzMtYWZhYi0xN2Q5MzViMTg5NWYiLCJzdWIiOiI5NDc3MDgwMSIsImlhdCI6MTc2NTk5MjkyMiwiZXhwIjoxODI5MDY0OTIyLCJzZWNyZXRJZCI6IjE3NDM5MzE3NjU5OTI4ODM4MjIifQ.80ZCDQvSLaoYt75KAiPSCJji94lQgFgh3e-RsgVT6AvB_Rgk8HpxvOnUcOJVwG7fUUvxZLqxnx1Fk-xRYSvS_A","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770801","videoTourFlow":false,"responseId":"6942e9e21514d37f9c0d3bc9","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"captcha":false,"dailyCap":false,"weeklyCap":false,"falseRequest":false,"phoneRejected":false,"hardBlock":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:53 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:05:53 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:44:312</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>7 Test Case:  Validate XID Revamp Page Using RqstMorePhotosGallery CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:02 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:03 pm</td>
+        <td>
+          RqstMorePhotosGallery CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:04 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:27 pm</td>
+        <td>
+          clicked successfully on: Gallery list view request more photos
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:29 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:30 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.REQUEST_MORE_PHOTOS","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929717558013931765992946201","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:31 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:32 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:32 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY.REQUEST_MORE_PHOTOS","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in checking out more photos of this property. Please share them on my phone/email.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929717558013931765992946201","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:32 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:33 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2M2FkNzM3OS04NjRhLTQwN2MtOTBlZS0wOTVkYjBhYjNmNDEiLCJzdWIiOiI5NDc3MDgyNSIsImlhdCI6MTc2NTk5Mjk3NywiZXhwIjoxODI5MDY0OTc3LCJzZWNyZXRJZCI6IjgwMTM5MzE3NjU5OTI5NDYyMDEifQ.18cyXI0zmHyWh5PYYohdOagiwG7yHxehj1SFMM3O_22Gt6PvHi_o5irP-k0DrCPodkCXr5uz7rLIC00SqTPBgg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770825","videoTourFlow":false,"responseId":"6942ea112f695c35381ae301","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:37 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:46 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659929891468013931765992946201"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:46 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2M2FkNzM3OS04NjRhLTQwN2MtOTBlZS0wOTVkYjBhYjNmNDEiLCJzdWIiOiI5NDc3MDgyNSIsImlhdCI6MTc2NTk5Mjk3NywiZXhwIjoxODI5MDY0OTc3LCJzZWNyZXRJZCI6IjgwMTM5MzE3NjU5OTI5NDYyMDEifQ.18cyXI0zmHyWh5PYYohdOagiwG7yHxehj1SFMM3O_22Gt6PvHi_o5irP-k0DrCPodkCXr5uz7rLIC00SqTPBgg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770825","videoTourFlow":false,"responseId":"6942e9e21514d37f9c0d3bc9","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:46 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:46 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:30:380</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>8 Test Case:  Validate XID Revamp Page Using RqstMorePhotosGalleryDetails CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:55 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:56 pm</td>
+        <td>
+          RqstMorePhotosGalleryDetails CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:06:56 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:25 pm</td>
+        <td>
+          Error in getting the WebElement : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-testid='MEDIA_DETAIL.REQUEST_PHOTOS.CTA']"}
+  (Session info: chrome=143.0.7499.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-1160.62.1.el7.x86_64', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [144ddd2a33c2e3df99d06ec9993aab6d, findElement {using=xpath, value=//*[@data-testid='MEDIA_DETAIL.REQUEST_PHOTOS.CTA']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.110, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\QATEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58058}, goog:processID: 9744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.16.73.33:4444/sess..., se:cdpVersion: 143.0.7499.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 144ddd2a33c2e3df99d06ec9993aab6d
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:07:25 pm</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'scrollIntoView')
+  (Session info: chrome=143.0.7499.110)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-1160.62.1.el7.x86_64', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [144ddd2a33c2e3df99d06ec9993aab6d, executeScript {script=arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});, args=[null]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.110, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\QATEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58058}, goog:processID: 9744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.16.73.33:4444/sess..., se:cdpVersion: 143.0.7499.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 144ddd2a33c2e3df99d06ec9993aab6d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at mobile.PageObjectRepository.EOIMobilePageClass.scrollTo(EOIMobilePageClass.java:299)
+	at mobile.BusinessLogic.EOIMobileBussClass.ValidateXID_Revamp(EOIMobileBussClass.java:4705)
+	at mobile.EOIMobileTest.ValidateXID_Revamp(EOIMobileTest.java:1406)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:07:25 pm</td>
+        <td>
+          Test Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:33:760</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>9 Test Case:  Validate XID Revamp Page Using BuilderMediaCarousel CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:32 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:34 pm</td>
+        <td>
+          BuilderMediaCarousel CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:34 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:58 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:01 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_CAROUSEL_BROCHURE_DETAILS.CONTACT_BUILDER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"confIds":"1838096"},"disableLeadSharing":true,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659930610586413921765993036170","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:02 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYjA5MmQ0OS1lOTFiLTRmNTEtOTMxZi00OWVhM2M2ZmFmOGEiLCJzdWIiOiI5NDc3MDg2NyIsImlhdCI6MTc2NTk5MzA2NiwiZXhwIjoxODI5MDY1MDY2LCJzZWNyZXRJZCI6IjY0MTM5MjE3NjU5OTMwMzYxNzAifQ.rANCcn5UvU8NOrjaSlGsGZPq3TLJYEMsnkoeVsD9IkMOwzl3GR7vorFhZp3EWGSBGwXDFEIAWqVZW7-2gz0xrA","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770867","videoTourFlow":false,"responseId":"6942ea6a2f695c35381ae34e","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:06 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:39:052</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>10 Test Case:  Validate XID Revamp Page Using BuilderBrochure CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:18 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:20 pm</td>
+        <td>
+          BuilderBrochure CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:20 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:49 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:52 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_BROCHURE_DETAILS.CONTACT_BUILDER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":true,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659931121347473901765993081497","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:53 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIzYTNiYzM4NS01NzliLTQ4NDYtYjA1Ny0wMjlkNmRlY2RmYTUiLCJzdWIiOiI5NDc3MDg5NyIsImlhdCI6MTc2NTk5MzExNiwiZXhwIjoxODI5MDY1MTE2LCJzZWNyZXRJZCI6Ijc0NzM5MDE3NjU5OTMwODE0OTcifQ.3yjbkguP46pmK-x39nii_fQbeWqCE1CH3IhQ-Cx1zHWe0ve0KtgTkYpS7jZFWXIrTOrwf9v0jxRycJxrD6RGfg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770897","videoTourFlow":false,"responseId":"6942ea9c2f695c35381ae38e","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:57 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:34:403</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>11 Test Case:  Validate XID Revamp Page Using InterestMediaCarousel CTA - Residential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:10 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/one-world-janla-bhubaneswar-npxid-r424559
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:11 pm</td>
+        <td>
+          InterestMediaCarousel CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:11 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:32 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:34 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":424559,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_CAROUSEL_BROCHURE_DETAILS.INTERESTED","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659931545996693871765993133962","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:34 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":null,"projectConfig":{"price":{"min":9500000,"max":17500000,"valueLabel":"95 L - 1.75 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":9500000,"max":9500000,"valueLabel":"95 L","authentic":true},"area":{"min":1185.0,"max":1185.0,"unit":1,"secondaryUnit":3,"display":"1,185 sqft","secondaryDisplay":"110.09 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":11000000,"max":12471830,"valueLabel":"1.1 - 1.25 Cr","authentic":true},"area":{"min":1420.0,"max":1610.0,"unit":1,"secondaryUnit":3,"display":"1,420 - 1,610 sqft","secondaryDisplay":"131.92 - 149.57 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":17500000,"max":17500000,"valueLabel":"1.75 Cr","authentic":true},"area":{"min":2060.0,"max":2060.0,"unit":1,"secondaryUnit":3,"display":"2,060 sqft","secondaryDisplay":"191.38 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:35 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":424559,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_CAROUSEL_BROCHURE_DETAILS.INTERESTED","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659931545996693871765993133962","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:35 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:36 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI4OTlmODNiYS02NmI3LTQ2OTEtOTEzYS1mYjY5OGU1NzYzMzYiLCJzdWIiOiI5NDc3MDkyMSIsImlhdCI6MTc2NTk5MzE2MCwiZXhwIjoxODI5MDY1MTYwLCJzZWNyZXRJZCI6IjY2OTM4NzE3NjU5OTMxMzM5NjIifQ.4iEloLwAkSRvy1sFatnnwY9rZMh5QWT15ESCJHKrQReaHr76zg1cKYYMRzNwhBBHbCl4yU_Ar6NyCCz9rzNSkA","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770921","videoTourFlow":false,"responseId":"6942eac897b55d5ea2c29168","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R424559","projectName":"One World","brochureUrl":"https://imagecdn.99acres.com/media1/28349/9/566989657O-1738740542439.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"DREAM HOUSE REALTY","company":"DREAM HOUSE REALTY","email":"dreamhouse.realtyleads@gmail.com","altMobile":"","altMobile2":"","mobile":"91-8637260422","profileId":"51301266","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"91-8637260422","whatsappMessage":"Hi DREAM HOUSE REALTY,\n\nI am interested in your advertisement on 99acres for One World, Janla, Bhubaneswar.\n\nPlease let me know when we can discuss about the same.\n\nhttp://www.99acres.com//--npxid-R424559.\n\nRegards,\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"One World in Janla","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"162"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:40 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:44 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"421539","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659931671556693871765993133962"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:44 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI4OTlmODNiYS02NmI3LTQ2OTEtOTEzYS1mYjY5OGU1NzYzMzYiLCJzdWIiOiI5NDc3MDkyMSIsImlhdCI6MTc2NTk5MzE2MCwiZXhwIjoxODI5MDY1MTYwLCJzZWNyZXRJZCI6IjY2OTM4NzE3NjU5OTMxMzM5NjIifQ.4iEloLwAkSRvy1sFatnnwY9rZMh5QWT15ESCJHKrQReaHr76zg1cKYYMRzNwhBBHbCl4yU_Ar6NyCCz9rzNSkA","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770921","videoTourFlow":false,"responseId":"6942ead097b55d5ea2c29175","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R421539","projectName":"Motwani Anantara","brochureUrl":"https://imagecdn.99acres.com/media1/24174/2/483482138O-1711968343158.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Mr Saroj","company":"Beyond 360 Realty Private Limited","email":"barsat.maharana09@gmail.com","altMobile":"","altMobile2":"","mobile":"91-9777979501","profileId":"72543762","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Motwani Anantara, Jharapada, Bhubaneswar.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Motwani Anantara in Jharapada","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"162"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:44 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:44 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:43:773</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>12 Test Case:  Validate XID Revamp Page Using InterestedBrochure CTA - Residential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:22 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/one-world-janla-bhubaneswar-npxid-r424559
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:23 pm</td>
+        <td>
+          InterestedBrochure CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:23 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:49 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:51 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":424559,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_BROCHURE_DETAILS.INTERESTED","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659932316441893921765993206198","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:51 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":null,"projectConfig":{"price":{"min":9500000,"max":17500000,"valueLabel":"95 L - 1.75 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":9500000,"max":9500000,"valueLabel":"95 L","authentic":true},"area":{"min":1185.0,"max":1185.0,"unit":1,"secondaryUnit":3,"display":"1,185 sqft","secondaryDisplay":"110.09 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":11000000,"max":12471830,"valueLabel":"1.1 - 1.25 Cr","authentic":true},"area":{"min":1420.0,"max":1610.0,"unit":1,"secondaryUnit":3,"display":"1,420 - 1,610 sqft","secondaryDisplay":"131.92 - 149.57 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":17500000,"max":17500000,"valueLabel":"1.75 Cr","authentic":true},"area":{"min":2060.0,"max":2060.0,"unit":1,"secondaryUnit":3,"display":"2,060 sqft","secondaryDisplay":"191.38 sqm","type":{"value":"SUPER","label":"Super Built-up Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:52 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":424559,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_BROCHURE_DETAILS.INTERESTED","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659932316441893921765993206198","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:52 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:53 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2ZGYwNjRiZS00MmQyLTRkMzEtOThlNS1hYzFjYzRjNTIwNjgiLCJzdWIiOiI5NDc3MDk0NyIsImlhdCI6MTc2NTk5MzIzNywiZXhwIjoxODI5MDY1MjM3LCJzZWNyZXRJZCI6IjE4OTM5MjE3NjU5OTMyMDYxOTgifQ.X-6B7PBRzY-zW5jxPBc7-tQSiO466a_Ex87vqygkBz90M4wcPA14yxWwh_H-ixpgtMWeHpnp2qjfuZa3UPegAg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770947","videoTourFlow":false,"responseId":"6942eb151514d37f9c0d3d34","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R424559","projectName":"One World","brochureUrl":"https://imagecdn.99acres.com/media1/28349/9/566989657O-1738740542439.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"DREAM HOUSE REALTY","company":"DREAM HOUSE REALTY","email":"dreamhouse.realtyleads@gmail.com","altMobile":"","altMobile2":"","mobile":"91-8637260422","profileId":"51301266","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"91-8637260422","whatsappMessage":"Hi DREAM HOUSE REALTY,\n\nI am interested in your advertisement on 99acres for One World, Janla, Bhubaneswar.\n\nPlease let me know when we can discuss about the same.\n\nhttp://www.99acres.com//--npxid-R424559.\n\nRegards,\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"One World in Janla","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"162"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:57 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:05 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"421539","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659932489261893921765993206198"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:06 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2ZGYwNjRiZS00MmQyLTRkMzEtOThlNS1hYzFjYzRjNTIwNjgiLCJzdWIiOiI5NDc3MDk0NyIsImlhdCI6MTc2NTk5MzIzNywiZXhwIjoxODI5MDY1MjM3LCJzZWNyZXRJZCI6IjE4OTM5MjE3NjU5OTMyMDYxOTgifQ.X-6B7PBRzY-zW5jxPBc7-tQSiO466a_Ex87vqygkBz90M4wcPA14yxWwh_H-ixpgtMWeHpnp2qjfuZa3UPegAg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770947","videoTourFlow":false,"responseId":"6942ead097b55d5ea2c29175","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R421539","projectName":"Motwani Anantara","brochureUrl":"https://imagecdn.99acres.com/media1/24174/2/483482138O-1711968343158.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Mr Saroj","company":"Beyond 360 Realty Private Limited","email":"barsat.maharana09@gmail.com","altMobile":"","altMobile2":"","mobile":"91-9777979501","profileId":"72543762","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Motwani Anantara, Jharapada, Bhubaneswar.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Motwani Anantara in Jharapada","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"162"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:06 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:06 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:45:194</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>13 Test Case:  Validate XID Revamp Page Using BrochureMediaCarousel CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:13 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:14 pm</td>
+        <td>
+          BrochureMediaCarousel CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:15 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:39 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:42 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_CAROUSEL_BROCHURE_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659932822312673871765993257239","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:44 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:44 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:45 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_CAROUSEL_BROCHURE_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659932822312673871765993257239","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:45 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:46 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIyZDE2MWI4NS0yYjNlLTQyY2QtOGM3Ny0xMWQxYjlkZWU2MjgiLCJzdWIiOiI5NDc3MDk2OSIsImlhdCI6MTc2NTk5MzI4OSwiZXhwIjoxODI5MDY1Mjg5LCJzZWNyZXRJZCI6IjI2NzM4NzE3NjU5OTMyNTcyMzkifQ.ncbFUFxezDkgLCh604ckJYAfiqbeD8TMPd4QgCO4_tsllYauh6-UvQubT0LC31R7ctrJTuRhr3agie0R_LPsbg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770969","videoTourFlow":false,"responseId":"6942eb4a97b55d5ea2c291e3","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:50 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:58 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659933013262673871765993257239"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:58 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIyZDE2MWI4NS0yYjNlLTQyY2QtOGM3Ny0xMWQxYjlkZWU2MjgiLCJzdWIiOiI5NDc3MDk2OSIsImlhdCI6MTc2NTk5MzI4OSwiZXhwIjoxODI5MDY1Mjg5LCJzZWNyZXRJZCI6IjI2NzM4NzE3NjU5OTMyNTcyMzkifQ.ncbFUFxezDkgLCh604ckJYAfiqbeD8TMPd4QgCO4_tsllYauh6-UvQubT0LC31R7ctrJTuRhr3agie0R_LPsbg","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770969","videoTourFlow":false,"responseId":"6942eb562f695c35381ae43c","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:58 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:58 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:56:915</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>14 Test Case:  Validate XID Revamp Page Using BrochureBrochure CTA - MultiphaseResidential</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:06 pm</td>
+        <td>
+          URL Entered  : https://www.99acres.com/godrej-woods-sector-43-noida-npxid-r374312
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:07 pm</td>
+        <td>
+          BrochureBrochure CTA is used for EOI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:07 pm</td>
+        <td>
+          clicked successfully on: Rera disclaimer closed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:39 pm</td>
+        <td>
+          clicked successfully on: EOI Login Layer Submitted
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:41 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_BROCHURE_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659933416073393921765993309810","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:42 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":false,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"initiateBocFlow":false,"showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","videoTourFlow":false,"qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"eoiConfigLayerDetails":{"showLayer":true,"showPhaseDetailsLayer":true,"projectConfig":{"price":{"min":12245000,"max":96600000,"valueLabel":"1.22 - 9.66 Cr","authentic":true},"tuples":[{"id":"1_2","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"2","label":"2 BHK"},"price":{"min":12245000,"max":21043982,"valueLabel":"1.22 - 2.1 Cr","authentic":true},"area":{"min":612.0,"max":916.0,"unit":1,"secondaryUnit":3,"display":"612 - 916 sqft","secondaryDisplay":"56.86 - 85.1 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_3","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"3","label":"3 BHK"},"price":{"min":17482800,"max":73000000,"valueLabel":"1.75 - 7.3 Cr","authentic":true},"area":{"min":874.0,"max":2563.0,"unit":1,"secondaryUnit":3,"display":"874 - 2,563 sqft","secondaryDisplay":"81.2 - 238.11 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_4","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"4","label":"4 BHK"},"price":{"min":25525600,"max":96600000,"valueLabel":"2.55 - 9.66 Cr","authentic":true},"area":{"min":1276.0,"max":3360.0,"unit":1,"secondaryUnit":3,"display":"1,276 - 3,360 sqft","secondaryDisplay":"118.54 - 312.15 sqm","type":{"value":"CARPET","label":"Carpet Area"}}},{"id":"1_5","propertyType":{"value":"1","label":"Apartment"},"bedrooms":{"value":"5","label":"5 BHK"},"price":{"min":52958000,"max":75080000,"valueLabel":"5.3 - 7.51 Cr","authentic":true},"area":{"min":2648.0,"max":3754.0,"unit":1,"secondaryUnit":3,"display":"2,648 - 3,754 sqft","secondaryDisplay":"246.01 - 348.76 sqm","type":{"value":"CARPET","label":"Carpet Area"}}}]}},"entityData":{},"maskedOwner":false,"zedoTrackData":{},"antiCrawlMasking":false,"dailyCap":false,"falseRequest":false,"captcha":false,"phoneRejected":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:43 pm</td>
+        <td>
+          clicked successfully on: multiphase layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:43 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":374312,"eoiOn":"PROJECT","trackSource":"MHTML5_XID_MEDIA_GALLERY_BROCHURE_DETAILS.DOWNLOAD_BROCHURE","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"category":"2","isR2M":null},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","referrerEoiStep":"CONFIG_LAYER","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659933416073393921765993309810","showIntermediateLayer":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:43 pm</td>
+        <td>
+          clicked successfully on: config layer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:44 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwNjIyYTBiYi0yMjVhLTQ5NTEtODA0NC04NjkyZjg1ZDc5MGUiLCJzdWIiOiI5NDc3MDk4NyIsImlhdCI6MTc2NTk5MzM0OCwiZXhwIjoxODI5MDY1MzQ4LCJzZWNyZXRJZCI6IjMzOTM5MjE3NjU5OTMzMDk4MTAifQ.rp9XhT2WM4S96JaCsclvfVs6AwY2T4UHh0Uw6dD7V2fHD8B4c8s8EXm2LglJZLVkiGAUIsykzCS2o9tBpB5CFA","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770987","videoTourFlow":false,"responseId":"6942eb8497b55d5ea2c2922b","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R374312","projectName":"Godrej Woods","brochureUrl":"https://imagecdn.99acres.com/media1/29037/4/580744363O-1742984622370.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Godrej New","company":"Godrej Properties Limited","email":"contactus@godrejproperties.com","altMobile":"","altMobile2":"","mobile":"91-8097428855","profileId":"49574080","maskContact":"N","type":"BUILDER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Godrej Woods, Sector 43, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"captcha":false,"dailyCap":false,"weeklyCap":false,"falseRequest":false,"phoneRejected":false,"hardBlock":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Godrej Woods in Sector 43","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:48 pm</td>
+        <td>
+          Thank You Layer Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:52 pm</td>
+        <td>
+          <b>Post Data:</b> {"productId":"414339","eoiOn":"PROJECT","trackSource":"MHTML5_RES_BUY_XID_EOI_COLLABPROJ.VIEW_NUMBER","responseType":"QUERY","platform":"Mobilesite","page":"XID","showYesIamInterested":"N","algoName":"EOI_FULFILLMENT","xidResCom":"R","name":"nnacreskiosk","countryCode":"91","phone":"1111111156","identityRatio":"I","searchCriteria":{"bhk":null,"proptype":null,"minPrice":null,"maxPrice":null,"minArea":null,"maxArea":null,"areaUnit":"SQFT","construction_filter":[]},"disableLeadSharing":false,"eoiThreshold":null,"query":"I am interested in this Project. Please call back.","shareMobileInfo":"Y","shareWhatsappInfo":"Y","visitorId":null,"workflowId":"17659933550763393921765993309810"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:52 pm</td>
+        <td>
+          <b>Response Body JSON:</b> {"blockedDueToLimitExhaust":false,"blockedViaBot":false,"promptMobileVerificationStatus":false,"otpOverWhatsapp":false,"eoiStatus":true,"showMissedCallLayer":false,"extended":false,"voiceVerification":false,"dealer":false,"eoiUserClass":"U","initiateBocFlow":false,"token":"eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwNjIyYTBiYi0yMjVhLTQ5NTEtODA0NC04NjkyZjg1ZDc5MGUiLCJzdWIiOiI5NDc3MDk4NyIsImlhdCI6MTc2NTk5MzM0OCwiZXhwIjoxODI5MDY1MzQ4LCJzZWNyZXRJZCI6IjMzOTM5MjE3NjU5OTMzMDk4MTAifQ.rp9XhT2WM4S96JaCsclvfVs6AwY2T4UHh0Uw6dD7V2fHD8B4c8s8EXm2LglJZLVkiGAUIsykzCS2o9tBpB5CFA","showSellerContactOption":false,"extendGlobalLimit":false,"isRmProperty":false,"isError":false,"locationRequired":false,"buyerName":"nnacreskiosk","buyerMobile":"91-1111111156","buyerProfileId":"94770987","videoTourFlow":false,"responseId":"6942eb562f695c35381ae43c","qryUsrData":"nnacreskiosk|null|91-1111111156|I|Y|null|","showFeedbackLayer":false,"entityData":{"entityUrl":"/--npxid-R414339","projectName":"Experion Elements","brochureUrl":"https://imagecdn.99acres.com/media1/25820/4/516404915O-1725529469056.pdf"},"maskedOwner":false,"sellerResponseDetails":[{"name":"Team Housethat","company":"HOUSEthat.co.in","email":"enquiry@housethat.co.in","altMobile":"","altMobile2":"","mobile":"91-9696968070","profileId":"11527065","maskContact":"N","type":"DEALER"}],"zedoTrackData":{},"whatsappNumber":"917428197035","whatsappMessage":"Hi 99acres,\nCan you share the *brochure* & additional project details for Experion Elements, Sector 45, Noida.\nRegards\nnnacreskiosk","antiCrawlMasking":false,"dailyCap":false,"phoneRejected":false,"falseRequest":false,"captcha":false,"hardBlock":false,"weeklyCap":false,"ecommTrackData":{"res_com":"R","preference":"S","locality":"Experion Elements in Sector 45","trackingEvents":"LEAD,LEAD_BUY,LEAD_NP","city_id":"7"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:52 pm</td>
+        <td>
+          THANK YOU LAYER 2 Actual: true || Expected: true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:52 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:13:03 pm</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-1160.62.1.el7.x86_64', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.110, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\QATEST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62847}, goog:processID: 16360, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.16.73.33:4444/sess..., se:cdpVersion: 143.0.7499.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)
+	at baseTest.BaseTest.suiteSetup(BaseTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchSessionException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchSessionException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:12:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>14 Test Case: Validate XID Revamp Page Using BrochureBrochure CTA - MultiphaseResidential</a>
+<div class="">
+<span class="badge badge-default"><font size = 3 >MOBILE_SITE: FULL SUITE - XID Revamp IA</font>.14 Test Case: Validate XID Revamp Page Using BrochureBrochure CTA - MultiphaseResidential</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.JavascriptException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.JavascriptException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:06:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>8 Test Case: Validate XID Revamp Page Using RqstMorePhotosGalleryDetails CTA - MultiphaseResidential</a>
+<div class="">
+<span class="badge badge-default"><font size = 3 >MOBILE_SITE: FULL SUITE - XID Revamp IA</font>.8 Test Case: Validate XID Revamp Page Using RqstMorePhotosGalleryDetails CTA - MultiphaseResidential</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 17, 2025 10:59:53 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 17, 2025 11:13:04 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Class Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Class Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Class</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> class passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> class failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Methods</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='86%'><b>13</b> methods passed</small></div>
+<div>
+<small data-tooltip='13%'><b>2</b> methods failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='46%'><b>89</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>3</b> events failed,
+<b data-tooltip='%'>99</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"<font size = 3 >MOBILE_SITE: FULL SUITE - XID Revamp IA</font>":789.65
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Java Version</td>
+<td>17.0.10</td>
+</tr>
+<tr>
+<td>platformName</td>
+<td>Mobile</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>99Acres QA</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 13,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 89,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 99
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

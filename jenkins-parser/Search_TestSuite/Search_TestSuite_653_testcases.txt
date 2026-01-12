@@ -1,0 +1,291 @@
+Validate Presence of SortBy Section on Com Buy SRP Page
+Validate Top Nudges on Com Buy SRP Page
+Validate SEO Quick Link on Com Buy SRP Page
+Validate Fat Footer on Com Buy SRP Page
+Validate Widgets on Com Buy SRP Page
+Validate Widgets on Com Buy Locality SRP Page
+Left Panel Widgets on Commercial Buy
+Validate Feedback Option on Com Buy SRP Page
+Validate Popular Localities Section on Com Buy SRP Page
+Validate New Launch SRP on Res Buy SRP Page
+Validate Investment Options filter on buy SRP Page
+Validate Minimum Budget filter on buy SRP Page
+Validate Maximum Budget filter on buy SRP Page
+Validate Landing page URL for Comm Buy
+Validate Search Count for Commercial Buy
+Validate Sort By options value on SRP for Comm Buy
+Validate Sort By options value on SRP for Coworking
+Validate Fat Footer on Coworking SRP Page
+Left Panel Widgets on Residential Buy
+Validate Landing page URL for Coworking
+Validate Search Count for Coworking
+Validate Widgets on SRP for Coworking
+Validate Presence of FAQ section on Res Buy SRP Page
+Validate Presence of SortBy Section on Res Buy SRP Page
+Validate New Launch SRP on Res Buy SRP Page
+Validate Top Nudges on Res Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate Feedback Option on Res Buy SRP Page
+Validate Popular Localities Section at bottom on Res Buy SRP Page
+Validate BHK filter on buy SRP Page
+Validate Property Type filter on buy SRP Page
+Validate Sort By options value on SRP for Res Buy
+Validate Landing page URL for Res Buy
+Validate Search Count for Residential Buy
+Validate Fat Footer on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page on City
+Validate Widgets on Res Buy SRP Page on Locality
+Left Panel Widgets on Residential Buy
+Validate Similar SAB on Res Buy SRP Page
+Validate Verified Tag Popup on Res Buy
+Validate Verified Tag Popup on Res Rent
+Validate Verified Tag Popup on PG
+Validate Verified Tag Popup on Comm Buy
+Validate Verified Tag Popup on Comm Lease
+Validate FRAUD ALERT banner on SRP for Res_Rent
+Validate FRAUD ALERT banner on SRP for Res_PG
+Validate FRAUD ALERT banner on SRP for Res_Buy
+Validate FRAUD ALERT banner on SRP for Com_Buy
+Validate FRAUD ALERT banner on SRP for Com_Lease
+Validate Hamburger on SRP for Res_Buy
+Validate Hamburger on SRP for Res_Rent
+Validate Hamburger on SRP for Res_PG
+Validate Hamburger on SRP for Com_Buy
+Validate Hamburger on SRP for Com_Lease
+Validate Similar Properties on SRP for Res_Buy
+Validate Voice Search Button on homepage
+Validate Voice Search Button on SRP on Res Buy
+Validate Voice Search Button on SRP on Res Rent
+Validate Voice Search Button on SRP on Comm Buy
+Validate Voice Search Button on SRP on Comm Lease
+Validate Voice Search Button on SRP on PG
+Validate Voice Search Button on SRP on CoWorking
+Validate Voice Search Button on SRP on Land and Plots SRP
+Validate Voice Search Button on SRP on Projects
+Validate Fat Footer on Com Lease Bareshell Office SRP Page
+Validate Fat Footer on Com Lease R2M Office SRP Page
+Validate Fat Footer on Com Lease SRP Page
+Validate Presence of widgets on Com Lease SRP Page
+Validate Presence of widgets on Com Lease Locality SRP Page
+Left Panel Widgets on Comm Lease Bareshell
+Left Panel Widgets on Comm Lease R2M
+Validate Presence of SortBy Section on Com Lease SRP Page
+Validate Top Nudges on Com Lease SRP Page
+Validate SEO Quick Link on Com Lease SRP Page
+Validate Feedback Option on Com Lease SRP Page
+Validate Popular Localities Section on Com Buy SRP Page
+Validate Landing page URL for Comm Lease
+Validate Validate Search Count for Commercial Lease
+Validate Sort By options value on SRP for Comm Lease
+Validate Fat Footer on Land/Plot Comm SRP Page
+Validate Fat Footer on Land/Plot Res SRP Page
+ValidateApprovedByAuthorityOnSRPinNoida
+ValidateApprovedByAuthorityOnSRPinNoidaComm
+Validate City Search from Plot Land Search Option in homepage
+Validate Top Nudges on Res Plot/Land SRP Page
+Validate Top Nudges on Com Lease SRP Page
+Validate Top Nudges on Com BUY SRP Plot land Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate Feedback Option on RES Buy SRP Page
+Validate Feedback Option on Com Buy SRP Page
+Validate Feedback Option on Com lease SRP Page
+Validate Popular Localities Section on Res Buy SRP Page
+ValidateConstructionStatusRemovedFiltersPlotLandFilter
+ValidateAmenitiesStatusRemovedFiltersPlotLandFilter
+ValidateFurnishingStatusRemovedFiltersPlotLandFilter
+ValidateInvestmentOptionsRemovedFiltersPlotLandFilter
+ValidatePurchaseTypeRemovedFiltersPlotLandFilter
+ValidateAdditionalAmenitiesPlotLandFilter
+ValidateCovidFiltersPlotLandFilter
+ValidateFoodandDrinksPlotLandFilter
+ValidateInternetandElectricityPlotLandFilter
+ValidateSpaceAccessPlotLandFilter
+ValidateServicesPlotLandFilter
+ValidateOtherFiltersPlotLandFilter
+ValidateActivitiesPlotLandFilter
+ValidateSRPOrderPlotLandFilter for Residential
+ValidateSRPOrderCOmmPlotLandFilter for commercial
+Validate filters Corner Plot In Pref Plot Land Res
+Validate filters In Gated Society In Pref Plot Land Res
+Validate facing direction residential
+Validate Fat Footer on PG SRP Page
+Validate Presence of SortBy Section on Res PG SRP Page
+Left Panel Widgets on PG
+Validate Top Nudges on Res PG SRP Page
+Validate SEO Quick Link on Res PG SRP Page
+Validate Feedback Option on Res PG SRP Page
+Validate Popular Localities Section on Res PG SRP Page
+Validate Landing page URL for PG
+Validate Search Count for PG
+Validate Sort By options value on SRP for PG
+Validate Fat Footer on Res Rent SRP Page
+Validate Presence of SortBy Section on Res Rent SRP Page
+Validate Top Nudges on Res Rent SRP Page
+Validate SEO Quick Link on Res Rent SRP Page
+Validate Feedback Option on Res Rent SRP Page
+Validate Presence of Widget section on Residential Rent SRP Page
+Left Panel Widgets on Residential Buy
+Validate Popular Localities Section on Res Rent SRP Page
+Validate Sort By options value on SRP for Res Rent
+Validate Landing page URL for Res Rent
+Validate Search Count for Residential Rent
+Validate Search Count for Dealer
+Validate Landing page URL for Comm Projects
+Validate Landing page URL for Res Projects
+Validate Pagination for Comm Projects
+Validate Pagination for Res Projects
+Validate Search Count for Projects - Commercial
+Validate Search Count for Projects - Residential
+Validate Sort By options value on SRP for Comm Project
+Validate Sort By options value on SRP for Res Project
+Validate Sorting on NPSRP for Commercial
+Validate Sorting on NPSRP for Residential
+Validate Search Input Box Presence on homepage
+Validate Voice Search Button on homepage
+Validate Voice Search Button on Search Form
+Validate Voice Search Button and Overlay on Homepage
+Validate Voice Search Button and Overlay on Search Form
+Validate Search Input Box Default Text on homepage
+Validate Presence of FAQ section on Res Buy SRP Page
+Validate H1 Section on Res Buy SRP Page
+Validate H1 Section on Res Rent SRP Page
+Validate H1 Section on Res PG SRP Page
+Validate H1 Section on Com Buy SRP Page
+Validate BHK on Res_Buy SRP Page from Filter Screen
+Validate Property Type on Res_Buy SRP Page from Filter Screen
+Validate Possession Status on Res_Buy SRP Page from Filter Screen
+Validate Possession Status on Res_Buy SRP Page from Filter Screen
+Validate Posted By on Res_Buy SRP Page from Filter Screen
+Validate Localities on Res_Buy SRP Page from Filter Screen
+Validate New Booking / Resale on Res_Buy SRP Page from Filter Screen
+Validate New Booking / Resale on Res_Buy SRP Page from Filter Screen
+Validate Amenities & Facilities on Res_Buy SRP Page from Filter Screen
+Validate Bathrooms on Res_Buy SRP Page from Filter Screen
+Validate Furnishing Status on Res_Buy SRP Page from Filter Screen
+Validate RERA Approved on Res_Buy SRP Page from Filter Screen
+Validate RERA Approved on Res_Buy SRP Page from Filter Screen
+Validate RERA Approved on Res_Buy SRP Page from Filter Screen
+Validate Photos & Videos on Res_Buy SRP Page from Filter Screen
+Validate Photos & Videos on Res_Buy SRP Page from Filter Screen
+Validate Bedrooms on Res_Rent SRP Page from Filter Screen
+Validate Property Type on Res_Rent SRP Page from Filter Screen
+Validate Furnishing Status on Res_Rent SRP Page from Filter Screen
+Validate Posted By on Res_Rent SRP Page from Filter Screen
+Validate With Videos on Res_Rent SRP Page from Filter Screen
+Validate Available for on Res_PG SRP Page from Filter Screen
+Validate Furnishing Status on Res_PG SRP Page from Filter Screen
+Validate Property Type on Res_PG SRP Page from Filter Screen
+Validate PG Services on Res_PG SRP Page from Filter Screen
+Validate Amenities & Facilities on Res_PG SRP Page from Filter Screen
+Validate Localities on Res_PG SRP Page from Filter Screen
+Validate Posted By on Res_PG SRP Page from Filter Screen
+Validate PG Occupancy on Res_PG SRP Page from Filter Screen
+Validate Bedrooms on Res_PG SRP Page from Filter Screen
+Validate With Videos on Res_PG SRP Page from Filter Screen
+Validate Property Type on Comm_Buy SRP Page from Filter Screen
+Validate Investment Type on Comm_Buy SRP Page from Filter Screen
+Validate Localities on Comm_Buy SRP Page from Filter Screen
+Validate Possession Status on Comm_Buy SRP Page from Filter Screen
+Validate New Booking / Resale on Comm_Buy SRP Page from Filter Screen
+Validate Amenities & Facilities on Comm_Buy SRP Page from Filter Screen
+Validate Posted By on Comm_Buy SRP Page from Filter Screen
+Validate Videos on Comm_Buy SRP Page from Filter Screen
+Validate Localities on Comm_Rent SRP Page from Filter Screen
+Validate New Projects/Societies on Comm_Rent SRP Page from Filter Screen
+Validate Amenities & Facilities on Comm_Rent SRP Page from Filter Screen
+Validate Posted By on Comm_Rent SRP Page from Filter Screen
+Validate Floor preference on Comm_Rent SRP Page from Filter Screen
+Validate Facilities on Comm_Rent SRP Page from Filter Screen
+Validate Key office specifications on Comm_Rent SRP Page from Filter Screen
+Validate H1 Section on Com Lease SRP Page
+Validate Search Icon Section on Res Buy SRP Page
+Validate one click opening of XID from suggestions
+Validate Anchor Header Layer on IA Com Buy SRP Page
+Validate Anchor Header Layer on IA Com Lease SRP Page
+Validate Anchor Header Layer on IA Res Buy SRP Page Not Present
+Anchor Header Layer on IA Res PG SRP Page
+Validate Anchor Header Layer on IA Res Rent SRP Page
+Validate Tabs Layer on IA Com Buy SRP Page
+Validate Tabs Layer on IA Com Lease SRP Page
+Validate Tabs Layer on IA Res Buy SRP Page
+Tabs Layer on IA Res PG SRP Page
+Validate Tabs Layer on IA Res Rent SRP Page
+Validate Visual Filter (VF) Layer on IA Com Buy SRP Page
+Validate Visual Filter (VF) Layer on IA Com Lease SRP Page
+Validate Visual Filter (VF) Layer on IA Res Buy SRP Page
+Validate Visual Filter (VF) Layer on IA Res PG SRP Page
+Validate Visual Filter (VF) Layer on IA Res Rent SRP Page
+Validate Search Icon Section on Res Rent SRP Page
+Validate Search Icon Section on Res PG SRP Page
+Validate Search Icon Section on Com Buy SRP Page
+Validate Widgets on Com Buy SRP Page
+Validate Search Icon Section on Com Lease SRP Page
+Validate Presence of widgets on Com Lease SRP Page
+Validate Presence of SortBy and Filter Section on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page
+Validate Inline Filters on Res Buy SRP Page
+Validate Presence of SortBy and Filter Section on Res Rent SRP Page
+Validate Presence of Widget section on Residential Rent SRP Page
+Validate Presence of SortBy and Filter Section on Res PG SRP Page
+Validate Presence of SortBy and Filter Section on Com Buy SRP Page
+Validate Presence of SortBy and Filter Section on Com Lease SRP Page
+Validate Presence of Chatbot on Res Buy SRP Page
+Validate Presence of Chatbot on Res Rent SRP Page
+Validate Presence of Chatbot on Res PG SRP Page
+Validate Presence of Chatbot on Com Buy SRP Page
+Validate Presence of Chatbot on Com Lease SRP Page
+Validate Inline filters on Res PG SRP Page
+Validate Nudge Icons count on Com Buy SRP Page
+Validate placeholder text on Res search form
+Validate near me icon search form
+Validate Res NPSRP project heading
+Validate BOSS banner on SRP for
+Validate Comm NPSRP project heading
+Validate Res NPSRP Tuple count
+Validate Comm NPSRP Tuple count
+Validate Sorting on NPSRP for Commercial
+Validate Sorting on NPSRP for Residential
+Validate Widgets on SRP for Bareshell office for Lease
+Validate Widgets on SRP for Ready to Move Office for Lease
+Residential buy search's filter
+Residential Rent search's filter
+Residential PG search's filter
+Comm buy search's filter
+Validate Get App button on SRP for Res_Buy
+Validate Get App button on SRP for Res_Rent
+Validate Get App button on SRP for Com_Buy
+Validate SEO Quick Link on Com Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate Verified Tag Popup on Res Rent
+Validate Verified Tag Popup on PG
+Validate Verified Tag Popup on Comm Buy
+Validate Top Nudges on Com Lease SRP Page
+Validate SEO Quick Link on Com Lease SRP Page
+Validate Top Nudges on Res Plot/Land SRP Page
+Validate Top Nudges on Com Lease SRP Page
+Validate Top Nudges on Com BUY SRP Plot land Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+Validate SEO Quick Link on Res Buy SRP Page
+ValidateSRPOrderPlotLandFilter for Residential
+ValidateSRPOrderCOmmPlotLandFilter for commercial
+Validate filters Corner Plot In Pref Plot Land Res
+Validate facing direction residential
+Validate SEO Quick Link on Res PG SRP Page
+Validate SEO Quick Link on Res Rent SRP Page
+Validate one click opening of XID from suggestions
+Validate Widgets on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page
+Validate Widgets on Res Buy SRP Page
+Validate Inline Filters on Res Buy SRP Page
+Validate Presence of Widget section on Residential Rent SRP Page
+Residential buy search's filter
+Residential buy search's filter
+Residential Rent search's filter
+Residential Rent search's filter
+Comm buy search's filter
+Comm buy search's filter
